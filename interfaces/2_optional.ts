@@ -15,5 +15,5 @@ function createUserConfig(userConfig: UserConfig) {
     };
 }
 
-// createUserConfig({ name: "Ilya" });
-// createUserConfig({ age: 20, name: "Ilya" });
+createUserConfig({ name: "Ilya" });
+createUserConfig({ age: 20, name: "Ilya" });

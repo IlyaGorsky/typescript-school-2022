@@ -114,4 +114,6 @@
                 return Math.sqrt(fig.size);
         }
     }
+
+    // getFigureWidth({ kind: 'circle', width: 2})
 }

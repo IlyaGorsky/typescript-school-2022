@@ -9,7 +9,7 @@ interface SearchFunc {
 let mySearch: SearchFunc;
 
 mySearch = function (src, sub) {
-    // let result = src.search(sub);
+    let result = src.search(sub);
     // return 1;
-    // return true;
+    return false;
 };

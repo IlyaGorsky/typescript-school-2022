@@ -9,6 +9,14 @@ interface Car {
     fuel: boolean;
 }
 
+
+// interface Car {
+
+//     fuel: boolean;
+//     model: boolean;
+// }
+
+
 let bmwCar: Car = {
     model: "f30",
     fuel: true,
@@ -18,6 +26,7 @@ let bmwCar: Car = {
 interface Window {
     webkitAudioContext: typeof AudioContext;
 }
+
 
 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
 

@@ -17,14 +17,13 @@ let frameWorkId: number;
 currentFramework = Frameworks[Frameworks.React];
 frameWorkId = Frameworks.React;
 
-
 // Числове значения
 enum Code {
     Ok = 200,
     BadRequest = 400,
 }
 
-// console.log(Code.Ok)
+console.log(Code.Ok);
 
 // Строковые значения
 enum FruitColors {
@@ -33,7 +32,7 @@ enum FruitColors {
     Blue = "#0000ff",
 }
 
-// console.log(FruitColors)
+console.log(FruitColors);
 
 // Индексы
 enum Currency {
@@ -46,8 +45,8 @@ enum Currency {
 // console.log(Currency)
 
 let gbp: 4;
-// let gbp: 5;
-gbp = Currency.RUR;
+let gbp: 5;
+// gbp = Currency.RUR;
 
 // Псевдоним
 enum ApprovalStatus {
@@ -55,20 +54,21 @@ enum ApprovalStatus {
     submitted,
     approved,
     rejected,
-    fail = rejected
-};
+    fail = rejected,
+}
 
-// console.log(ApprovalStatus.fail === ApprovalStatus.rejected) 
+// console.log(ApprovalStatus.fail === ApprovalStatus.rejected);
 
 /**
  * Перечисление enum объявленное с помощью ключевого слова const после
  * компиляции не оставляет в коде привычных конструкций.
  */
-const enum Color {
-    Apple = "green",
+{
+    const enum Color {
+        Apple = "green",
+    }
+    let colorApple = Color.Apple;
+
+    // console.log(Color);
+    console.log(Color.Apple)
 }
-
-let colorApple = Color.Apple;
-
-// console.log(Color);
-// console.log(Color.Apple)

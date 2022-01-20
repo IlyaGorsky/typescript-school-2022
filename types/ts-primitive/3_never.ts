@@ -13,4 +13,4 @@ const infineLoop = () => {
     while (true) {}
 };
 
-// errorBadRequest();
+errorBadRequest();

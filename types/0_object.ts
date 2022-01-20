@@ -9,7 +9,7 @@ simpleObject = {};
 // simpleObject = 5;
 // simpleObject = true;
 
-simpleObject = null; // Error, strictNullChecks = true
+// simpleObject = null; // Error, strictNullChecks = true
 
 let student: { id: number; firstName: string; lastName: string, phone?: string };
 
@@ -21,6 +21,9 @@ student = {
 };
 
 let studentPhone: string;
-// studentPhone = student.phone;
 
-// let isObject: object = student;
+if (student.phone) {
+    studentPhone = student.phone;
+}
+
+let isObject: object = student;

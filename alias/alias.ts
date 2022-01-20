@@ -32,7 +32,6 @@ type Data = {
   data: number[];
 }
 
-//  Алиасы могут быть анотированы как пересечение 
 type ResponseData = Data & ErrorCode;
 
 function someResolever(data: ResponseData) {

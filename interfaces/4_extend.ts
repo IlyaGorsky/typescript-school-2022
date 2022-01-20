@@ -15,12 +15,12 @@ interface ShapePosition {
 class ShapeColorClass implements ShapeColor {
     constructor(public color: string) {} 
 }
-
+;
 const someVarColor: ShapeColor = new ShapeColorClass("red");
 
-// console.log(someVarColor.color)
+console.log(someVarColor.color)
 
-class ShapeClass implements ShapeColor, ShapePosition, S {
+class ShapeClass implements ShapeColor, ShapePosition {
     // constructor(public x: number, public y: number){}
-    // constructor(public x: number, public y: number, public color: string){}
+    constructor(public x: number, public y: number, public color: string){}
 }

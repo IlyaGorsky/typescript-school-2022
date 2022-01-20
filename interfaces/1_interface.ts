@@ -19,5 +19,5 @@ let someUser = {
     lastName: "Pool",
 };
 
-printUserFullName(someUser);
-// printUserFullName({ firstName: "Dead" });
+// printUserFullName(someUser);
+// printUserFullName({ firstName: "Dead", lastName: 'dddd' });

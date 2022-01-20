@@ -10,7 +10,7 @@ interface PenStroke {
 }
 
 interface Square extends ShapeColor, PenStroke {
-    sideLength?: number;
+    sideLength: number;
 }
 
 let square: Square;

@@ -7,6 +7,6 @@
  */
 let someFn = () => {};
 let analytics = {
-    send(): any {},
+    send(): void {},
 };
 let result: void = someFn();

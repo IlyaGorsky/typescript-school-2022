@@ -6,7 +6,7 @@ type AxisX = "top" | "bottom";
 type AxisY = "left" | "right";
 
 
-// type Sides = `${AxisX}-${AxisY}`;
+type Sides = `${AxisX}-${AxisY}`;
 
 
-// type BorderRadius = `border-${Sides}-radius`;
+type BorderRadius = `border-${Sides}-radius`;

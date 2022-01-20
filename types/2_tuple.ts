@@ -25,6 +25,6 @@ extendPersons.push([...userInfo, 123, { lng: 123 }]);
 
 
 // Кортеж также поддерживает spread оператор
-function f(...rest: [number, string, boolean]): void {}
+function f(...rest: [number, string, boolean?]): void {}
 
 // f(1232, '')

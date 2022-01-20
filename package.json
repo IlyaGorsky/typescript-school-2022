@@ -8,6 +8,8 @@
     "typescript": "4.5.4"
   },
   "scripts": {
+    "build": "tsc --outDir ./build/",
+    "clean": "tsc --clean ./build/ ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ilya Gorsky",

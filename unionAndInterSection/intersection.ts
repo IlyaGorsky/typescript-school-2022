@@ -60,6 +60,7 @@ try {
     const favorites = getUserFavoriteArticles(responseData);
     if (Array.isArray(favorites)) {
         favorites.forEach((article) => {
+
             if (article?.name) {
                 console.log(article.name);
             }

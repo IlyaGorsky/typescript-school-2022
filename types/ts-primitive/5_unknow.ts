@@ -9,16 +9,16 @@
 {
     let value: unknown;
 
-    // value = true;
-    // value = 42;
-    // value = "Hello World";
-    // value = [];
-    // value = {};
-    // value = Math.random;
-    // value = null;
-    // value = undefined;
-    // value = new TypeError();
-    // value = Symbol("type");
+    value = true;
+    value = 42;
+    value = "Hello World";
+    value = [];
+    value = {};
+    value = Math.random;
+    value = null;
+    value = undefined;
+    value = new TypeError();
+    value = Symbol("type");
 }
 
 {
@@ -36,11 +36,11 @@
 
 { 
     let value: unknown;
-    // value.foo.bar;
-    // value.trim();
-    // value();
-    // new value();
-    // value[0][1];
+    value.foo.bar;
+    typeof value === 'string' && value.trim();
+    value();
+    new value();
+    value[0][1];
 }
 
 // function sum(a, b) {
