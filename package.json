@@ -1,0 +1,15 @@
+{
+  "name": "ts-school-2021",
+  "version": "1.0.0",
+  "description": "Поговорим о типизации и как она устроена и о каких важных характеристиках нужно знать.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "4.5.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ilya Gorsky",
+  "license": "ISC"
+}
